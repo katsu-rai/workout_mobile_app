@@ -11,10 +11,22 @@ export default function ExerciseListItem({ item, index }) {
 
 const styles = StyleSheet.create({
     excerciseContainer: {
-      backgroundColor: "gray",
+      backgroundColor: "ghostwhite",
       borderRadius: 5,
       gap: 5,
       padding: 10,
+      marginHorizontal: 3,
+  
+      // shadow
+      shadowColor: "#000",
+      shadowOffset: {
+        width: 0,
+        height: 1,
+      },
+      shadowOpacity: 0.20,
+      shadowRadius: 1.41,
+
+      elevation: 2,
     },
     excerciseName: {
       fontSize: 20,
